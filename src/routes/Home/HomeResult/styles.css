@@ -1,0 +1,35 @@
+.container-section {
+  padding: 0 20px;
+}
+
+.card-form {
+  background-color: var(--bg-card-primary-section);
+}
+
+.container-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 54px 30px;
+}
+
+.title-home-result {
+  font-size: 1.5rem;
+}
+
+#inpt {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  border: 1px solid var(--bg-bord-card-result);
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-placeholder);
+  background-color: var(--bg-card-secondy-content);
+}
+
+#inpt::placeholder {
+  color: var(--text-placeholder);
+}

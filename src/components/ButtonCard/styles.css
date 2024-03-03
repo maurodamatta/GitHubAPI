@@ -1,0 +1,16 @@
+.btn {
+  background-color: var(--bg-btn);
+  color: var(--text-header-primary);
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .btn {
+    font-size: 1.25rem;
+  }
+}

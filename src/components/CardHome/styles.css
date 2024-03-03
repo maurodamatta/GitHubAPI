@@ -1,0 +1,19 @@
+.card-home-content h2 {
+  font-size: 1.5rem;
+  color: var(--text-section-secondy);
+  font-weight: 700;
+}
+
+.card-home-content p {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 700px) {
+  .card-home-content h2 {
+    font-size: 3rem;
+  }
+
+  .card-home-content p {
+    font-size: 1.5rem;
+  }
+}
